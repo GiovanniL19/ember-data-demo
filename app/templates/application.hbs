@@ -1,15 +1,17 @@
+<h1>Test Ember REST Data Adapter Demo</h1>
 <table>
   <thead>
     <th>Title</th>
     <th>Status</th>
   </thead>
-
-  {{#each model as |todo|}}
-    <tr>
-      <td>{{todo.title}}</td>
-      <td>{{todo.completed}}</td>
-    </tr>
-  {{else}}
-    <td colspan="2">No items todo</td>
-  {{/each}}
+  <tbody>
+    {{#each model as |todo|}}
+      <tr>
+        <td>{{todo.title}}</td>
+        <td>{{todo.completed}}</td>
+      </tr>
+    {{else}}
+      <td colspan="2">No items todo</td>
+    {{/each}}
+  </tbody>
 </table>
