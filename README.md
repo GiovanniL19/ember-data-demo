@@ -1,7 +1,6 @@
 # ember-data-demo
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project gives you a simple demo of the REST adaptr in action. Gettign data from https://jsonplaceholder.typicode.com and serialising it for ember data. The data is then represented on a simple table.
 
 ## Prerequisites
 
