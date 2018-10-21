@@ -1,0 +1,15 @@
+<table>
+  <thead>
+    <th>Title</th>
+    <th>Status</th>
+  </thead>
+
+  {{#each model as |todo|}}
+    <tr>
+      <td>{{todo.title}}</td>
+      <td>{{todo.completed}}</td>
+    </tr>
+  {{else}}
+    <td colspan="2">No items todo</td>
+  {{/each}}
+</table>
